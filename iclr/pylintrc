@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+disable=fixme,
+        # NOTE(mrksr): When implementing interfaces or overriding methods,
+        # arguments often go unused.
+        unused-argument,
+        # NOTE(mrksr): We do not really care about module docstrings
+        missing-module-docstring,
+        # NOTE(mrksr): Black compatibility
+        C0330,
+        C0326,

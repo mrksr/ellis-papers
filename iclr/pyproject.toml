@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "iclr"
+version = "0.1.0"
+description = ""
+authors = ["Markus Kaiser <mk2092@cam.ac.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openreview-py = "^1.2.5"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.6"
+pre-commit = "^2.16"
+pylint = "^2.10"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
